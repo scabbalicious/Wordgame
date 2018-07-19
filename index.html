@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Wordgame</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="hangman">
+		<div id="wins"></div>
+		<div id="winner">Winner winner chicken dinner!</div>
+		<div class="gamefield">
+			<div id="guesses">
+				<h2>These are the letters you have guessed so far:</h2>
+				<h3 id="guessedLetters"></h3>
+				<h2>So don't choose these letters again. Procrastination never got nobody nowhere.</h2>
+			</div>
+			<div id="currentWord"></div>
+			<div id="remaining">
+				<h2>This is the number of guesses you have remaining:</h2>
+				<h3 id="remainingGuesses"></h3>
+				<h2>Don't go wasting them or anything stupid like that.</h2>
+			</div>
+		</div>
+		<div id="start">Welcome to the game. Press any letter to begin</div>
+		<div id="loser">Nice work, loser!</div>
+		<div id="tryagain">Press "P" to play again!</div>
+	</div>
+	<script src="main.js"></script>
+</body>
+</html>

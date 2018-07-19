@@ -1,0 +1,85 @@
+html {box-sizing: border-box;}
+*, *:before, *:after {box-sizing: inherit;}
+
+body {background: url('https://i.imgur.com/M7aD8Uh.jpg'); font-family: Calibri, sans-serif;}
+
+.hangman {
+	height: 400px;
+	padding: 20px;
+
+}
+.gamefield {
+	display: flex;
+	margin: 0 auto;
+	height: 100%;
+}
+#wins {
+	font-size: 1.5em;
+
+}
+#guesses {
+	width: 30%;
+	padding: 10px;
+	background: rgba(247,207,165,0.6);
+	border-radius: 30px;
+	text-align: center;
+}
+#guessedLetters {
+	margin: 0 auto;
+	flex-wrap: wrap;
+	padding: 20px;
+	width: 90%;
+	font-size: 3em;
+	background: #f29635;
+	box-shadow: 5px 5px 0 #000;
+}
+#currentWord {
+	width: 30%;
+	font-size: 4em;
+	margin: 0 auto;
+}
+#remaining {
+	width: 30%;
+	padding: 10px;
+	background: rgba(247,207,165,0.6);
+	border-radius: 30px;
+}
+#remainingGuesses {
+	margin: 0 auto;
+	padding: 20px;
+	width: 90%;
+	font-size: 3em;
+	text-align: center;
+	background: #f29635;
+	box-shadow: 5px 5px 0 #000;
+}
+#winner {
+	text-align: center;
+	font-size: 5em;
+	font-family: Calibri, sans-serif;
+	display: none;
+}
+#loser {
+	text-align: center;
+	font-size: 5em;
+	font-family: Calibri, sans-serif;
+	display: none;
+}
+#tryagain {
+	background: #454bef;
+	box-shadow: 5px 5px 0 #000;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 3em;
+	display: none;
+}
+#start {
+	background: #454bef;
+	box-shadow: 5px 5px 0 #000;
+	width: 50%;
+	margin: 0 auto;
+	text-align: center;
+	font-size: 3em;
+	display: block;
+}
